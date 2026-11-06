@@ -39,22 +39,23 @@ public class Lab41_Samuel_Garcia {
             if (User==0){ break loop;}
                 
             else if (User==1) {
-                    System.out.println("tragamonedas");
-                    int fichas = 50;
-                    System.out.println("fichas actuales:" + fichas);
+                System.out.println("tragamonedas");
                     
-                    System.out.println("deseas girar del ");
-    
+                int fichas = 50;
+                System.out.println("fichas actuales:" + fichas);
+                ejercicio01.jugar();
                 }
                 
             else if (User==2){
                     System.out.println("batalla naval");
+                    ejercicio02.jugar();
+                    
                 }
                 
             else if (User==3){
                 System.out.println("battalla naval");
                 
-                ejercicio03.jugar();
+                ejercicio033.jugar();
                 }
                 
             else{
